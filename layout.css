@@ -1,0 +1,117 @@
+p { 
+font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 { 
+ font-size: 20px; 
+   font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  color: darkblue;
+  font-style: normal;
+  line-height: 2;
+}
+
+h2, h3 {
+ line-height: 1.4;
+ }
+
+.firstpara { 
+  font-weight: 700;
+}
+
+a { 
+  color: #006400;
+  text-decoration: underline; 
+} 
+
+a:hover { 
+  text-decoration-line: underline;
+}
+
+.byline a { 
+  color: darkred;
+  font-size: 12px;
+}
+
+.byline {
+  color: darkred;
+  font-size: 12px;
+}
+
+.people { 
+  color:purple; 
+  font-weight: 700;
+}
+
+.quote { 
+  font-style: italic; 
+}
+
+.creatorstudioimage { 
+  max-width: 100%; height: auto;
+}
+
+ .logo { max-width: 150px; height: auto; }
+
+ aside a { 
+  font-family: "Space Mono", monospace;
+ }
+
+footer { 
+  background-color: #e8eef7;
+}
+
+ footer p { text-align: center;
+}
+.navbar-brand {
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-item { 
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.you-may-like { 
+  padding-bottom: 50px;
+}
+
+.story-one,
+.story-two,
+.story-three {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.hero { 
+  background-image: url("images/creatorstudio.jpeg");
+  background-size: cover; 
+  background-position: center; 
+  min-height: 350px; 
+  display: flex;
+  padding: 48px 32px;
+  position: relative;
+  flex-direction: column;
+}
+
+.hero-title { 
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #000000;
+  padding: 24px;
+
+}
+
+.hero-text { 
+  background-color: rgba(255, 255, 255, 0.8);  
+  color: #000000;
+  padding: 24px;
+}
